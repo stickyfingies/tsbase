@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "WebWorker",
+            "DOM",
+            "DOM.Iterable",
+            "ES2020"
+        ],
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "es2020",
+        "declaration": true,
+        "declarationDir": "lib",
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowJs": false,
+    }
+}
